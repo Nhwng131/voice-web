@@ -21,8 +21,7 @@ docker compose up -d
 # NOTE: compose map cổng 55432 -> 5432 trong container
 
 # 3) Tạo file env
-copy .env.example .env
-# sửa JWT_SECRET thành chuỗi mạnh
+
 
 # 4) Chạy app
 python -m uvicorn app.main:app --reload
