@@ -22,7 +22,6 @@ docker compose up -d
 
 # 3) Tạo file env
 
-
 # 4) Chạy app
 python -m uvicorn app.main:app --reload
 # mở http://127.0.0.1:8000/docs
